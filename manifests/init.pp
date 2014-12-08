@@ -1,7 +1,7 @@
-# This is a placeholder class.
+#   include pathfinder
 class pathfinder {
-  package { 'PF_LION_65':
-    source   => 'http://get.cocoatech.com/PF6_LION.zip',
+  package { 'Path Finder':
+    source   => 'http://get.cocoatech.com/PF7.zip',
     provider => 'compressed_app'
   }
 }
